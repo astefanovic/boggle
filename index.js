@@ -35,7 +35,7 @@
  const serviceAccount = require('../placeholders/service-account.json');
  firebase.initializeApp({
    credential: firebase.credential.cert(serviceAccount),
-   databaseURL: 'https://<PROJECT_ID>.firebaseio.com'
+   databaseURL: 'https://boggle-36453.firebaseio.com'
  });
  // [END initialize]
  
